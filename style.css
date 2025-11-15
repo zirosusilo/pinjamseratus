@@ -1,5 +1,6 @@
 .main {
-	width: 100%;
+	width: 90%;
+	max-width: 1000px;
 	text-align: center;
 	justify-content: center;
 	font-family: "Gantari", "sans-serif";
@@ -23,7 +24,7 @@
 }
 
 h1 {
-	width: 400px;
+	/*width: 400px;*/
 	background-color: #F86400;
 	padding: 20px;
 	border-radius: 15px;
@@ -72,4 +73,27 @@ input::placeholder {
 
 .ratakiri {
 	text-align: left;
+}
+
+@media (max-width: 600px) {
+  .main {
+    font-size: 4vw;
+    padding: 0 16px;
+    margin: 16px auto;
+  }
+
+  h1, h2, p {
+    width: 90%;
+    max-width: 90%;
+  }
+
+  .border::after {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  input[type=number] {
+    width: 100%;
+    max-width: 100%;
+  }
 }
