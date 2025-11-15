@@ -1,10 +1,10 @@
 .main {
-	width: 600px;
+	width: 100%;
 	text-align: center;
 	justify-content: center;
 	font-family: "Gantari", "sans-serif";
 	font-weight: 700;
-	font-size: 12px;
+	font-size: 19.416px;
 	margin: 0 auto;
 }
 
@@ -15,47 +15,61 @@
 .border::after {
 	content: "";
 	display: block;
-	width: 220px;
-	height: 5px;
+	width: 420px;
+	height: 8px;
 	background: #F86400;
 	border-radius: 5px;
-	margin: 15px auto;
+	margin: 25px auto;
 }
 
 h1 {
-	width: 200px;
+	width: 400px;
 	background-color: #F86400;
 	padding: 10px;
-	border-radius: 10px;
+	border-radius: 15px;
 	color: #FFFFFF;
 	font-size: inherit;
-	margin: 10px auto;
+	margin: 20px auto;
 }
 
 h2 {
-	width: 200px;
+	width: 400px;
 	background-color: #FDA100;
 	color: white;
-	padding: 10px;
-	margin-top: 10px;
-	border-radius: 10px;
+	padding: 20px;
+	margin-top: 15px;
+	border-radius: 20px;
 	font-size: inherit;
-	margin: 10px auto;
+	margin: 20px auto;
 }
 
 p {
-	width: 200px;
+	width: 400px;
 	font-size: inherit;
 	background-color: #F86400;
 	color: white;
-	border-radius: 10px;
-	margin: 10px auto;
-	padding: 10px;
+	border-radius: 20px;
+	margin: 20px auto;
+	padding: 20px;
 }
 
 input[type=number] {
 	border-radius: 10px;
-	border: 2px solid #F86400;
-	width: 200px;
-	height: 20px;
+	border: 5px solid #F86400;
+	width: 440px;
+	height: 50px;
+	padding-left: 20px;
+	box-sizing: border-box;
+	color: #F86400;
+	font-family: "Gantari", "sans-serif";
+	font-weight: 700;
+}
+
+input::placeholder {
+	color: rgba(248, 100, 0, 0.6);
+	font-style: italic;
+}
+
+.ratakiri {
+	text-align: left;
 }
