@@ -1,0 +1,38 @@
+.main {
+	width: 800px;
+	margin: 0 auto;
+	text-align: center;
+	font-family: "Gantari", "sans-serif";
+	font-weight: 700;
+	justify-content: center;
+}
+
+h1 {
+	background-color: #F86400;
+	padding: 10px;
+	border-radius: 800px;
+	color: #FFFFFF;
+}
+
+.bagian {
+	position: relative;
+}
+
+.bagian::after {
+	content: "";
+	display: block;
+	width: 400px;
+	height: 5px;
+	background: #F86400;
+	border-radius: 5px;
+	margin: 0 auto;
+}
+
+p {
+	margin: 10px;
+	padding: 0;
+}
+
+h2 {
+	margin: 0;
+}
