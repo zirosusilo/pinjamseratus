@@ -1,2 +1,2 @@
 # pinjamseratus
-Monitoring uang sederhana
+Monitoring uang sederhana berbasis web.
