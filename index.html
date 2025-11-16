@@ -1,38 +1,48 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Si Catat</title>
-	<link rel="stylesheet" href="style.css">
-	<link href="https://fonts.googleapis.com/css2?family=Gantari:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Si Catat</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Gantari:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-	<div class="main">
-		<div class="border">
-			<h1>Selamat Datang Master!<br> Si Catat Siap Melayani Anda</h1>
-		</div>
-		<div class="border">
-			<div class="ratakiri">
-				<p>Total Tabungan : Rp0</p>
-			</div>
-		</div>
-		<div class="border">
-			<h2>Bulan Ini</h2>
-			<div class="ratakiri">
-				<p>Total Pemasukan : Rp0</p>
-				<p>Total Pengeluaran : Rp0</p>
-			</div>
-		</div>
-		<div class="border">
-			<h2>Hari Ini</h2>
-			<p>Masukkan Pemasukan :</p>
-			<input type="number" placeholder="Masukkan Nominal">
-			<p>Masukkan Pengeluaran :</p>
-			<input type="number" placeholder="Masukkan Nominal">
-		</div>
-		<div class="border">
-			<h2> Riwayat </h2>
-		</div>
-	</div>
+    <div class="main">
+        <div class="border">
+            <h1>Selamat Datang Master!<br> Si Catat Siap Melayani Anda</h1>
+        </div>
+        <div class="border">
+            <div>
+                <p id="total-tabungan">Total Tabungan : Rp0</p>
+            </div>
+        </div>
+        <div class="border">
+            <h2>Bulan Ini</h2>
+            <div>
+                <p id="total-pemasukan-bulan">Total Pemasukan : Rp0</p>
+                <p id="total-pengeluaran-bulan">Total Pengeluaran : Rp0</p>
+            </div>
+        </div>
+        <div class="border">
+            <h2> </h2>
+            <p>Pemasukan</p>
+            <input type="number" id="input-pemasukan" placeholder="Masukkan Nominal">
+            <button id="btn-tambah-pemasukan">Tambah Pemasukan</button>
+
+            <h2> </h2>
+
+            <p>Pengeluaran</p>
+            <input type="number" id="input-pengeluaran" placeholder="Masukkan Nominal">
+            <button id="btn-tambah-pengeluaran">Tambah Pengeluaran</button>
+            
+        </div>
+        <div class="border">
+            <h2> Riwayat </h2>
+            <button id="btn-hapus-riwayat" class="btn-danger">Hapus Semua Riwayat</button>
+            <div id="riwayat-list">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
