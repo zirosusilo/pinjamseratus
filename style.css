@@ -14,8 +14,18 @@ html, body {
     box-sizing: border-box;
 }
 
+.border {
+	position: relative;
+}
+
 .border::after {
-    display: none; 
+  content: "";
+	display: block;
+  width: 360px;
+  height: 8px;
+  background: #F86400;
+  border-radius: 5px;
+  margin: 25px auto;
 }
 
 h1, h2, p, button {
