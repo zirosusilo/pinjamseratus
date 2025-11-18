@@ -1,7 +1,7 @@
 # Si Catat
 ## Monitoring uang sederhana berbasis web.
 Kami menggunakan kode yang sederhana yaitu html, css, dan javascript.</br>
-Website ini dihosting dengan [Github Pages](https://zirosusilo.github.io/pinjamseratus/).
+Website ini dihosting dengan [Github Pages](https://zirosusilo.github.io/sicatat/).
 
 ### Dibuat oleh:
 - **Desain**</br>
